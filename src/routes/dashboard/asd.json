@@ -1,0 +1,2164 @@
+{
+	"release-offset": 100,
+	"release-count": 168,
+	"releases": [
+		{
+			"title": "Shy Away (Livestream version)",
+			"barcode": "",
+			"country": "XW",
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"cover-art-archive": {
+				"front": true,
+				"artwork": true,
+				"back": false,
+				"darkened": false,
+				"count": 1
+			},
+			"id": "03d0bc8e-802d-4594-8bd8-7cd7e48b732c",
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"asin": null,
+			"packaging": "None",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"quality": "normal",
+			"disambiguation": "from the livestream experience",
+			"release-events": [
+				{
+					"date": "2021-06-11",
+					"area": {
+						"sort-name": "[Worldwide]",
+						"id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+						"type": null,
+						"iso-3166-1-codes": ["XW"],
+						"type-id": null,
+						"disambiguation": "",
+						"name": "[Worldwide]"
+					}
+				}
+			],
+			"date": "2021-06-11"
+		},
+		{
+			"date": "2024-03-27",
+			"release-events": [{ "area": null, "date": "2024-03-27" }],
+			"disambiguation": "",
+			"quality": "normal",
+			"packaging": "None",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"asin": null,
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"id": "03dc1e29-4c1e-4970-a3b9-7a8fff8e79b4",
+			"cover-art-archive": {
+				"back": false,
+				"darkened": false,
+				"count": 1,
+				"front": true,
+				"artwork": true
+			},
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"barcode": "075679651150",
+			"country": null,
+			"title": "Next Semester"
+		},
+		{
+			"barcode": "075678625367",
+			"country": "DE",
+			"cover-art-archive": {
+				"count": 0,
+				"back": false,
+				"darkened": false,
+				"front": false,
+				"artwork": false
+			},
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"title": "MTV Unplugged",
+			"quality": "normal",
+			"packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+			"packaging": "Jewel Case",
+			"asin": "B0BVY257TP",
+			"date": "2023-04-21",
+			"disambiguation": "",
+			"release-events": [
+				{
+					"area": {
+						"type": null,
+						"iso-3166-1-codes": ["DE"],
+						"sort-name": "Germany",
+						"id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+						"disambiguation": "",
+						"name": "Germany",
+						"type-id": null
+					},
+					"date": "2023-04-21"
+				}
+			],
+			"text-representation": { "script": "Latn", "language": "deu" },
+			"id": "0571baf2-3e81-4cd3-a714-6769be15bd0e"
+		},
+		{
+			"date": "2024-05-24",
+			"disambiguation": "Dolby Atmos mix",
+			"release-events": [{ "date": "2024-05-24", "area": null }],
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"packaging": "None",
+			"asin": null,
+			"quality": "normal",
+			"id": "074e47eb-a1ad-450b-a784-f2915d5cbbe8",
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"cover-art-archive": {
+				"back": false,
+				"count": 1,
+				"darkened": false,
+				"front": true,
+				"artwork": true
+			},
+			"barcode": "075679659736",
+			"country": null,
+			"title": "Clancy"
+		},
+		{
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"cover-art-archive": {
+				"count": 1,
+				"back": false,
+				"darkened": false,
+				"artwork": true,
+				"front": true
+			},
+			"barcode": "075679817556",
+			"country": "XW",
+			"title": "Level of Concern",
+			"date": "2020-04-09",
+			"disambiguation": "",
+			"release-events": [
+				{
+					"area": {
+						"disambiguation": "",
+						"name": "[Worldwide]",
+						"type-id": null,
+						"type": null,
+						"iso-3166-1-codes": ["XW"],
+						"sort-name": "[Worldwide]",
+						"id": "525d4e18-3d00-31b9-a58b-a146a916de8f"
+					},
+					"date": "2020-04-09"
+				}
+			],
+			"packaging": "None",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"asin": null,
+			"quality": "normal",
+			"id": "09a95f6e-b3df-437c-8a03-54aede76f193",
+			"text-representation": { "script": "Latn", "language": "eng" }
+		},
+		{
+			"cover-art-archive": {
+				"artwork": true,
+				"front": true,
+				"darkened": false,
+				"back": false,
+				"count": 1
+			},
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"country": null,
+			"barcode": "075679654632",
+			"title": "Overcompensate",
+			"date": "2024-02-29",
+			"release-events": [{ "area": null, "date": "2024-02-29" }],
+			"disambiguation": "",
+			"quality": "normal",
+			"packaging": "None",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"asin": null,
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"id": "0b05648b-d8df-44ad-977d-0df00b3a3ceb"
+		},
+		{
+			"country": "XW",
+			"barcode": "075679605917",
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"cover-art-archive": {
+				"artwork": true,
+				"front": true,
+				"darkened": false,
+				"back": false,
+				"count": 1
+			},
+			"title": "Drum Show",
+			"packaging": "None",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"asin": null,
+			"quality": "normal",
+			"date": "2025-08-18",
+			"disambiguation": "",
+			"release-events": [
+				{
+					"date": "2025-08-18",
+					"area": {
+						"type-id": null,
+						"name": "[Worldwide]",
+						"disambiguation": "",
+						"id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+						"sort-name": "[Worldwide]",
+						"iso-3166-1-codes": ["XW"],
+						"type": null
+					}
+				}
+			],
+			"id": "0ed425de-a697-48f6-8588-b0183e433751",
+			"text-representation": { "script": "Latn", "language": "eng" }
+		},
+		{
+			"title": "Breach",
+			"country": null,
+			"barcode": "075678594670",
+			"cover-art-archive": {
+				"back": false,
+				"darkened": false,
+				"count": 1,
+				"artwork": true,
+				"front": true
+			},
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"id": "1d9a4160-41f8-4c90-8116-82765d736408",
+			"quality": "normal",
+			"packaging": null,
+			"packaging-id": null,
+			"asin": null,
+			"date": "2025-09-12",
+			"release-events": [{ "date": "2025-09-12", "area": null }],
+			"disambiguation": ""
+		},
+		{
+			"release-events": [
+				{
+					"date": "2019-10-16",
+					"area": {
+						"iso-3166-1-codes": ["XW"],
+						"type": null,
+						"id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+						"sort-name": "[Worldwide]",
+						"name": "[Worldwide]",
+						"disambiguation": "",
+						"type-id": null
+					}
+				}
+			],
+			"disambiguation": "",
+			"date": "2019-10-16",
+			"quality": "normal",
+			"asin": null,
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"packaging": "None",
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"id": "1f81de04-2ba9-44f7-bf8a-9d23bc5ed6e2",
+			"cover-art-archive": {
+				"darkened": false,
+				"back": false,
+				"count": 1,
+				"artwork": true,
+				"front": true
+			},
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"barcode": "075679834331",
+			"country": "XW",
+			"title": "The Hype (Berlin)"
+		},
+		{
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"id": "2bbbea7d-9879-455d-a903-857124b95515",
+			"release-events": [
+				{
+					"area": {
+						"id": "489ce91b-6658-3307-9877-795b68554c98",
+						"sort-name": "United States",
+						"iso-3166-1-codes": ["US"],
+						"type": null,
+						"type-id": null,
+						"name": "United States",
+						"disambiguation": ""
+					},
+					"date": "2024-05-24"
+				}
+			],
+			"disambiguation": "digipak",
+			"date": "2024-05-24",
+			"quality": "normal",
+			"asin": null,
+			"packaging": "Digipak",
+			"packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+			"title": "Clancy",
+			"cover-art-archive": {
+				"darkened": false,
+				"back": false,
+				"count": 1,
+				"front": true,
+				"artwork": true
+			},
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"country": "US",
+			"barcode": "075678608643"
+		},
+		{
+			"id": "2d50d9bd-2285-4da2-8e7d-0ec59dc68f8e",
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"release-events": [{ "area": null, "date": "2024-05-24" }],
+			"disambiguation": "",
+			"date": "2024-05-24",
+			"asin": null,
+			"packaging": "None",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"quality": "normal",
+			"title": "Clancy",
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"cover-art-archive": {
+				"artwork": true,
+				"front": true,
+				"count": 1,
+				"back": false,
+				"darkened": false
+			},
+			"barcode": "075679659729",
+			"country": null
+		},
+		{
+			"cover-art-archive": {
+				"count": 1,
+				"back": false,
+				"darkened": false,
+				"front": true,
+				"artwork": true
+			},
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"barcode": "075679785541",
+			"country": "XW",
+			"title": "Shy Away",
+			"release-events": [
+				{
+					"date": "2021-04-07",
+					"area": {
+						"disambiguation": "",
+						"name": "[Worldwide]",
+						"type-id": null,
+						"type": null,
+						"iso-3166-1-codes": ["XW"],
+						"sort-name": "[Worldwide]",
+						"id": "525d4e18-3d00-31b9-a58b-a146a916de8f"
+					}
+				}
+			],
+			"disambiguation": "",
+			"date": "2021-04-07",
+			"quality": "normal",
+			"asin": null,
+			"packaging": "None",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"id": "33024bb3-7576-4d12-91ad-ac7539a415da"
+		},
+		{
+			"title": "Clancy",
+			"barcode": "075678608612",
+			"country": "US",
+			"cover-art-archive": {
+				"front": false,
+				"artwork": false,
+				"back": false,
+				"darkened": false,
+				"count": 0
+			},
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"id": "346c582e-6585-407c-9d64-a2f06d15032e",
+			"quality": "normal",
+			"packaging-id": "c1668fc7-8944-4a00-bc3e-46e8d861d211",
+			"packaging": "Box",
+			"asin": null,
+			"date": "2024-05-24",
+			"disambiguation": "black boxset",
+			"release-events": [
+				{
+					"date": "2024-05-24",
+					"area": {
+						"iso-3166-1-codes": ["US"],
+						"type": null,
+						"id": "489ce91b-6658-3307-9877-795b68554c98",
+						"sort-name": "United States",
+						"name": "United States",
+						"disambiguation": "",
+						"type-id": null
+					}
+				}
+			]
+		},
+		{
+			"barcode": "075679648624",
+			"country": null,
+			"cover-art-archive": {
+				"back": false,
+				"count": 1,
+				"darkened": false,
+				"artwork": true,
+				"front": true
+			},
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"title": "Backslide",
+			"quality": "normal",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"packaging": "None",
+			"asin": null,
+			"date": "2024-04-25",
+			"disambiguation": "",
+			"release-events": [{ "date": "2024-04-25", "area": null }],
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"id": "3e1d1f54-5d27-4ff0-a063-f26d9e91d525"
+		},
+		{
+			"cover-art-archive": {
+				"darkened": false,
+				"back": false,
+				"count": 0,
+				"artwork": false,
+				"front": false
+			},
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"barcode": "075678593642",
+			"country": null,
+			"title": "Breach",
+			"date": "2025-09-12",
+			"release-events": [{ "date": "2025-09-12", "area": null }],
+			"disambiguation": "indie exclusive vinyl",
+			"quality": "normal",
+			"packaging": null,
+			"packaging-id": null,
+			"asin": null,
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"id": "45ff7057-c9a1-43a4-9ceb-ce37d225a11c"
+		},
+		{
+			"date": "2020-05-26",
+			"disambiguation": "Live release",
+			"release-events": [
+				{
+					"area": {
+						"type": null,
+						"iso-3166-1-codes": ["XW"],
+						"sort-name": "[Worldwide]",
+						"id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+						"disambiguation": "",
+						"name": "[Worldwide]",
+						"type-id": null
+					},
+					"date": "2020-05-26"
+				}
+			],
+			"packaging": "None",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"asin": null,
+			"quality": "normal",
+			"id": "48fb0139-98f2-4d97-ba6a-363f25ead3bc",
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"cover-art-archive": {
+				"back": false,
+				"darkened": false,
+				"count": 1,
+				"front": true,
+				"artwork": true
+			},
+			"barcode": null,
+			"country": "XW",
+			"title": "Level of Concern (Live from Outside)"
+		},
+		{
+			"packaging-id": null,
+			"packaging": null,
+			"asin": null,
+			"quality": "normal",
+			"date": "2025-09-12",
+			"release-events": [{ "date": "2025-09-12", "area": null }],
+			"disambiguation": "red vinyl",
+			"id": "492115bb-4fd1-4645-959b-3cefca2ddf6f",
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"country": null,
+			"barcode": "075678594526",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"cover-art-archive": {
+				"darkened": false,
+				"back": false,
+				"count": 0,
+				"artwork": false,
+				"front": false
+			},
+			"title": "Breach"
+		},
+		{
+			"barcode": "075679762962",
+			"country": "XW",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"cover-art-archive": {
+				"artwork": true,
+				"front": true,
+				"count": 3,
+				"back": false,
+				"darkened": false
+			},
+			"title": "Scaled and Icy (Livestream Version)",
+			"asin": null,
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"packaging": "None",
+			"quality": "normal",
+			"disambiguation": "",
+			"release-events": [
+				{
+					"date": "2021-11-19",
+					"area": {
+						"sort-name": "[Worldwide]",
+						"id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+						"type": null,
+						"iso-3166-1-codes": ["XW"],
+						"type-id": null,
+						"disambiguation": "",
+						"name": "[Worldwide]"
+					}
+				},
+				{
+					"date": "2021-11-19",
+					"area": {
+						"type": null,
+						"iso-3166-1-codes": ["US"],
+						"sort-name": "United States",
+						"id": "489ce91b-6658-3307-9877-795b68554c98",
+						"disambiguation": "",
+						"name": "United States",
+						"type-id": null
+					}
+				}
+			],
+			"date": "2021-11-19",
+			"id": "4a3a77cc-552f-40fe-8554-283b61bd5e02",
+			"text-representation": { "script": "Latn", "language": "eng" }
+		},
+		{
+			"title": "Clancy",
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"cover-art-archive": {
+				"front": false,
+				"artwork": false,
+				"back": false,
+				"darkened": false,
+				"count": 0
+			},
+			"barcode": "075678608902",
+			"country": null,
+			"id": "4cf385fe-d01e-4685-abe5-febe2c6b9704",
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"disambiguation": "Blood Records",
+			"release-events": [{ "area": null, "date": "2024-05-24" }],
+			"date": "2024-05-24",
+			"asin": null,
+			"packaging": "Gatefold Cover",
+			"packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+			"quality": "normal"
+		},
+		{
+			"disambiguation": "red cassette",
+			"release-events": [
+				{
+					"date": "2024-05-24",
+					"area": {
+						"disambiguation": "",
+						"name": "United States",
+						"type-id": null,
+						"type": null,
+						"iso-3166-1-codes": ["US"],
+						"sort-name": "United States",
+						"id": "489ce91b-6658-3307-9877-795b68554c98"
+					}
+				}
+			],
+			"date": "2024-05-24",
+			"asin": null,
+			"packaging-id": "c70b737a-0114-39a9-88f7-82843e54f906",
+			"packaging": "Cassette Case",
+			"quality": "normal",
+			"id": "4d191513-4e49-45fe-928f-d87e21d0f125",
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"cover-art-archive": {
+				"front": false,
+				"artwork": false,
+				"count": 0,
+				"back": false,
+				"darkened": false
+			},
+			"barcode": "075678608605",
+			"country": "US",
+			"title": "Clancy"
+		},
+		{
+			"country": "XW",
+			"barcode": "",
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"cover-art-archive": {
+				"back": false,
+				"count": 1,
+				"darkened": false,
+				"artwork": true,
+				"front": true
+			},
+			"title": "2022-06-09: MTV Unplugged: Exchange LA, Los Angeles, CA, USA",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"packaging": "None",
+			"asin": null,
+			"quality": "normal",
+			"date": "2022-06-09",
+			"disambiguation": "",
+			"release-events": [
+				{
+					"area": {
+						"iso-3166-1-codes": ["XW"],
+						"type": null,
+						"id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+						"sort-name": "[Worldwide]",
+						"name": "[Worldwide]",
+						"disambiguation": "",
+						"type-id": null
+					},
+					"date": "2022-06-09"
+				}
+			],
+			"id": "550aa34a-22d9-4cbb-bac8-96c3869cb5ea",
+			"text-representation": { "script": "Latn", "language": "eng" }
+		},
+		{
+			"date": "2021-11-19",
+			"disambiguation": "",
+			"release-events": [
+				{
+					"area": {
+						"type-id": null,
+						"name": "[Worldwide]",
+						"disambiguation": "",
+						"id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+						"sort-name": "[Worldwide]",
+						"iso-3166-1-codes": ["XW"],
+						"type": null
+					},
+					"date": "2021-11-19"
+				}
+			],
+			"quality": "normal",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"packaging": "None",
+			"asin": null,
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"id": "588163e5-d96d-4c67-9a1f-45c26f4032a8",
+			"cover-art-archive": {
+				"artwork": false,
+				"front": false,
+				"back": false,
+				"count": 0,
+				"darkened": false
+			},
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"barcode": "075679762962",
+			"country": "XW",
+			"title": "Scaled And Icy (Livestream Version)"
+		},
+		{
+			"id": "5c0a95e6-88b3-4879-924e-1895757a383c",
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"packaging": "None",
+			"asin": null,
+			"quality": "normal",
+			"date": "2024-02-29",
+			"release-events": [{ "date": "2024-02-29", "area": null }],
+			"disambiguation": "",
+			"title": "Overcompensate (edit)",
+			"country": null,
+			"barcode": "075679654625",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"cover-art-archive": {
+				"darkened": false,
+				"back": false,
+				"count": 1,
+				"artwork": true,
+				"front": true
+			}
+		},
+		{
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"id": "61b5cf37-0a29-451e-a958-eb5faffde251",
+			"quality": "normal",
+			"packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+			"packaging": "Gatefold Cover",
+			"asin": null,
+			"date": "2023-04-21",
+			"disambiguation": "",
+			"release-events": [
+				{
+					"date": "2023-04-21",
+					"area": {
+						"type": null,
+						"iso-3166-1-codes": ["US"],
+						"sort-name": "United States",
+						"id": "489ce91b-6658-3307-9877-795b68554c98",
+						"disambiguation": "",
+						"name": "United States",
+						"type-id": null
+					}
+				}
+			],
+			"title": "MTV Unplugged",
+			"barcode": "075678625350",
+			"country": "US",
+			"cover-art-archive": {
+				"artwork": true,
+				"front": true,
+				"darkened": false,
+				"back": false,
+				"count": 1
+			},
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official"
+		},
+		{
+			"title": "Clancy",
+			"barcode": "075678607080",
+			"country": null,
+			"cover-art-archive": {
+				"artwork": true,
+				"front": true,
+				"count": 4,
+				"back": true,
+				"darkened": false
+			},
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"id": "657ef682-e9f0-4c1b-b77a-ecbffaf073b2",
+			"quality": "normal",
+			"packaging": "Jewel Case",
+			"packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+			"asin": null,
+			"date": "2024-05-24",
+			"disambiguation": "listening event exclusive",
+			"release-events": [{ "area": null, "date": "2024-05-24" }]
+		},
+		{
+			"release-events": [{ "date": "2024-04-25", "area": null }],
+			"disambiguation": "",
+			"date": "2024-04-25",
+			"asin": null,
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"packaging": "None",
+			"quality": "normal",
+			"id": "65c2f607-3c29-4826-90ff-630714d8c78b",
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"cover-art-archive": {
+				"artwork": true,
+				"front": true,
+				"darkened": false,
+				"back": false,
+				"count": 1
+			},
+			"country": null,
+			"barcode": "075679648617",
+			"title": "Backslide"
+		},
+		{
+			"id": "69fe7da1-c14c-42f1-8b76-2eeb64b7a456",
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"asin": null,
+			"packaging": "None",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"quality": "normal",
+			"release-events": [
+				{
+					"date": "2021-04-30",
+					"area": {
+						"sort-name": "[Worldwide]",
+						"id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+						"type": null,
+						"iso-3166-1-codes": ["XW"],
+						"type-id": null,
+						"disambiguation": "",
+						"name": "[Worldwide]"
+					}
+				}
+			],
+			"disambiguation": "",
+			"date": "2021-04-30",
+			"title": "Choker",
+			"barcode": "075679785534",
+			"country": "XW",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"cover-art-archive": {
+				"artwork": true,
+				"front": true,
+				"back": false,
+				"count": 1,
+				"darkened": false
+			}
+		},
+		{
+			"title": "Clancy",
+			"country": "US",
+			"barcode": "075678608599",
+			"cover-art-archive": {
+				"back": false,
+				"count": 0,
+				"darkened": false,
+				"front": false,
+				"artwork": false
+			},
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"id": "6b789e3f-7517-42e9-b08c-5be06c8aa1c2",
+			"quality": "normal",
+			"asin": null,
+			"packaging-id": "c1668fc7-8944-4a00-bc3e-46e8d861d211",
+			"packaging": "Box",
+			"release-events": [
+				{
+					"area": {
+						"disambiguation": "",
+						"name": "United States",
+						"type-id": null,
+						"type": null,
+						"iso-3166-1-codes": ["US"],
+						"sort-name": "United States",
+						"id": "489ce91b-6658-3307-9877-795b68554c98"
+					},
+					"date": "2024-05-24"
+				}
+			],
+			"disambiguation": "cassette photo box",
+			"date": "2024-05-24"
+		},
+		{
+			"disambiguation": "",
+			"release-events": [
+				{
+					"date": "2024-05-24",
+					"area": {
+						"sort-name": "Japan",
+						"id": "2db42837-c832-3c27-b4a3-08198f75693c",
+						"type": null,
+						"iso-3166-1-codes": ["JP"],
+						"type-id": null,
+						"disambiguation": "",
+						"name": "Japan"
+					}
+				}
+			],
+			"date": "2024-05-24",
+			"quality": "normal",
+			"asin": null,
+			"packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+			"packaging": "Jewel Case",
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"id": "6c62c689-7022-417a-b0a4-5e67e41cca6e",
+			"cover-art-archive": {
+				"darkened": false,
+				"back": true,
+				"count": 3,
+				"artwork": true,
+				"front": true
+			},
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"barcode": "4943674392650",
+			"country": "JP",
+			"title": "Clancy"
+		},
+		{
+			"date": "2021-05-21",
+			"disambiguation": "",
+			"release-events": [
+				{
+					"area": {
+						"name": "United States",
+						"disambiguation": "",
+						"type-id": null,
+						"iso-3166-1-codes": ["US"],
+						"type": null,
+						"id": "489ce91b-6658-3307-9877-795b68554c98",
+						"sort-name": "United States"
+					},
+					"date": "2021-05-21"
+				}
+			],
+			"packaging": "Digipak",
+			"packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+			"asin": "B091ZGJW9Q",
+			"quality": "normal",
+			"id": "6d07bfa3-6433-4229-8375-279a107d9680",
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"cover-art-archive": {
+				"back": false,
+				"count": 0,
+				"darkened": false,
+				"front": false,
+				"artwork": false
+			},
+			"barcode": "075678643354",
+			"country": "US",
+			"title": "Scaled and Icy"
+		},
+		{
+			"id": "80f27c69-4e2d-4d64-a244-1e276b10d453",
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"date": "",
+			"release-events": [
+				{
+					"date": "",
+					"area": {
+						"type-id": null,
+						"name": "United States",
+						"disambiguation": "",
+						"id": "489ce91b-6658-3307-9877-795b68554c98",
+						"sort-name": "United States",
+						"iso-3166-1-codes": ["US"],
+						"type": null
+					}
+				}
+			],
+			"disambiguation": "",
+			"packaging": null,
+			"packaging-id": null,
+			"asin": null,
+			"quality": "normal",
+			"title": "The Contract",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"cover-art-archive": {
+				"darkened": false,
+				"back": false,
+				"count": 1,
+				"front": true,
+				"artwork": true
+			},
+			"barcode": null,
+			"country": "US"
+		},
+		{
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"cover-art-archive": {
+				"darkened": false,
+				"back": false,
+				"count": 1,
+				"front": true,
+				"artwork": true
+			},
+			"barcode": null,
+			"country": null,
+			"title": "The Craving (single version)",
+			"date": "2024-05-22",
+			"release-events": [{ "date": "2024-05-22", "area": null }],
+			"disambiguation": "",
+			"packaging": null,
+			"packaging-id": null,
+			"asin": null,
+			"quality": "normal",
+			"id": "82331f99-290c-4ee4-8939-39ce91f8940a",
+			"text-representation": { "script": null, "language": null }
+		},
+		{
+			"country": "XW",
+			"barcode": "",
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"cover-art-archive": {
+				"front": false,
+				"artwork": false,
+				"back": false,
+				"count": 0,
+				"darkened": false
+			},
+			"title": "Level of Concern USB 2.0",
+			"packaging": null,
+			"packaging-id": null,
+			"asin": null,
+			"quality": "normal",
+			"date": "2020",
+			"release-events": [
+				{
+					"area": {
+						"sort-name": "[Worldwide]",
+						"id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+						"type": null,
+						"iso-3166-1-codes": ["XW"],
+						"type-id": null,
+						"disambiguation": "",
+						"name": "[Worldwide]"
+					},
+					"date": "2020"
+				}
+			],
+			"disambiguation": "Flashdrive",
+			"id": "89776739-8441-4497-8a41-104431d85897",
+			"text-representation": { "language": "eng", "script": "Latn" }
+		},
+		{
+			"title": "Saturday",
+			"barcode": null,
+			"country": "XW",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"cover-art-archive": {
+				"artwork": true,
+				"front": true,
+				"darkened": false,
+				"back": false,
+				"count": 1
+			},
+			"id": "8f184770-b790-4b45-a70a-f0f0babd40c0",
+			"text-representation": { "language": null, "script": null },
+			"packaging": null,
+			"packaging-id": null,
+			"asin": null,
+			"quality": "normal",
+			"date": "2021-05-18",
+			"release-events": [
+				{
+					"area": {
+						"sort-name": "[Worldwide]",
+						"id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+						"type": null,
+						"iso-3166-1-codes": ["XW"],
+						"type-id": null,
+						"disambiguation": "",
+						"name": "[Worldwide]"
+					},
+					"date": "2021-05-18"
+				}
+			],
+			"disambiguation": ""
+		},
+		{
+			"packaging-id": "c1668fc7-8944-4a00-bc3e-46e8d861d211",
+			"packaging": "Box",
+			"asin": null,
+			"quality": "normal",
+			"date": "2024-05-24",
+			"disambiguation": "red boxset",
+			"release-events": [
+				{
+					"date": "2024-05-24",
+					"area": {
+						"sort-name": "United States",
+						"id": "489ce91b-6658-3307-9877-795b68554c98",
+						"type": null,
+						"iso-3166-1-codes": ["US"],
+						"type-id": null,
+						"disambiguation": "",
+						"name": "United States"
+					}
+				}
+			],
+			"id": "90bc022c-8dc8-4ea8-b38a-102c0835858c",
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"country": "US",
+			"barcode": "075678608575",
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"cover-art-archive": {
+				"artwork": false,
+				"front": false,
+				"darkened": false,
+				"back": false,
+				"count": 0
+			},
+			"title": "Clancy"
+		},
+		{
+			"date": "2024-05-30",
+			"disambiguation": "",
+			"release-events": [
+				{
+					"area": {
+						"iso-3166-1-codes": ["XW"],
+						"type": null,
+						"id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+						"sort-name": "[Worldwide]",
+						"name": "[Worldwide]",
+						"disambiguation": "",
+						"type-id": null
+					},
+					"date": "2024-05-30"
+				}
+			],
+			"quality": "normal",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"packaging": "None",
+			"asin": "B0D5JRW951",
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"id": "91e421d9-dcc9-4226-b815-d9c61b9b94be",
+			"cover-art-archive": {
+				"artwork": true,
+				"front": true,
+				"back": false,
+				"count": 1,
+				"darkened": false
+			},
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"country": "XW",
+			"barcode": "",
+			"title": "Clancy - Digital Remains"
+		},
+		{
+			"date": "2025-06-12",
+			"disambiguation": "",
+			"release-events": [
+				{
+					"area": {
+						"name": "[Worldwide]",
+						"disambiguation": "",
+						"type-id": null,
+						"iso-3166-1-codes": ["XW"],
+						"type": null,
+						"id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+						"sort-name": "[Worldwide]"
+					},
+					"date": "2025-06-12"
+				}
+			],
+			"packaging": "None",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"asin": null,
+			"quality": "normal",
+			"id": "92d93a6b-ceb1-4339-8fe2-5db35a8f6b73",
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"cover-art-archive": {
+				"artwork": true,
+				"front": true,
+				"back": false,
+				"count": 1,
+				"darkened": false
+			},
+			"country": "XW",
+			"barcode": "075678595745",
+			"title": "The Contract"
+		},
+		{
+			"disambiguation": "",
+			"release-events": [{ "date": "2024-05-24", "area": null }],
+			"date": "2024-05-24",
+			"asin": null,
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"packaging": "None",
+			"quality": "normal",
+			"id": "938c1eb9-a398-490b-9cf3-8c2b5f55bffb",
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"cover-art-archive": {
+				"back": false,
+				"darkened": false,
+				"count": 1,
+				"artwork": true,
+				"front": true
+			},
+			"country": null,
+			"barcode": "075679660329",
+			"title": "Clancy"
+		},
+		{
+			"title": "Clancy",
+			"barcode": "075678610998",
+			"country": "DE",
+			"cover-art-archive": {
+				"artwork": true,
+				"front": true,
+				"back": false,
+				"darkened": false,
+				"count": 1
+			},
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"id": "981189ab-9864-4b57-883b-2a3243d9201c",
+			"quality": "normal",
+			"asin": null,
+			"packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+			"packaging": "Gatefold Cover",
+			"disambiguation": "black vinyl",
+			"release-events": [
+				{
+					"area": {
+						"sort-name": "Germany",
+						"id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+						"type": null,
+						"iso-3166-1-codes": ["DE"],
+						"type-id": null,
+						"disambiguation": "",
+						"name": "Germany"
+					},
+					"date": "2024-05-24"
+				}
+			],
+			"date": "2024-05-24"
+		},
+		{
+			"cover-art-archive": {
+				"back": false,
+				"count": 1,
+				"darkened": false,
+				"artwork": true,
+				"front": true
+			},
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"country": "US",
+			"barcode": "075678610929",
+			"title": "Clancy",
+			"date": "2024-05-24",
+			"release-events": [
+				{
+					"date": "2024-05-24",
+					"area": {
+						"disambiguation": "",
+						"name": "United States",
+						"type-id": null,
+						"type": null,
+						"iso-3166-1-codes": ["US"],
+						"sort-name": "United States",
+						"id": "489ce91b-6658-3307-9877-795b68554c98"
+					}
+				}
+			],
+			"disambiguation": "limited edition exclusive splatter vinyl",
+			"quality": "normal",
+			"packaging": "Gatefold Cover",
+			"packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+			"asin": null,
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"id": "9ccb28f6-5814-4052-96bc-d0d1cebd0e4a"
+		},
+		{
+			"id": "9de1b318-f601-4312-80c1-234d7e7d9b2e",
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"release-events": [
+				{
+					"area": {
+						"type-id": null,
+						"name": "Germany",
+						"disambiguation": "",
+						"id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+						"sort-name": "Germany",
+						"iso-3166-1-codes": ["DE"],
+						"type": null
+					},
+					"date": "2021-05-21"
+				}
+			],
+			"disambiguation": "",
+			"date": "2021-05-21",
+			"asin": "B091ZGJW9Q",
+			"packaging": "Digipak",
+			"packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+			"quality": "normal",
+			"title": "Scaled and Icy",
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"cover-art-archive": {
+				"count": 21,
+				"back": true,
+				"darkened": false,
+				"artwork": true,
+				"front": true
+			},
+			"country": "DE",
+			"barcode": "075678643354"
+		},
+		{
+			"country": "XW",
+			"barcode": "075679794536",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"cover-art-archive": {
+				"front": true,
+				"artwork": true,
+				"back": false,
+				"darkened": false,
+				"count": 1
+			},
+			"title": "Christmas Saves the Year",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"packaging": "None",
+			"asin": null,
+			"quality": "normal",
+			"date": "2020-12-08",
+			"release-events": [
+				{
+					"area": {
+						"iso-3166-1-codes": ["XW"],
+						"type": null,
+						"id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+						"sort-name": "[Worldwide]",
+						"name": "[Worldwide]",
+						"disambiguation": "",
+						"type-id": null
+					},
+					"date": "2020-12-08"
+				}
+			],
+			"disambiguation": "",
+			"id": "9fe4990d-c65c-4f9c-923b-fb72c68a62af",
+			"text-representation": { "language": "eng", "script": "Latn" }
+		},
+		{
+			"id": "a645e932-b8a3-44ff-a044-f8530420307a",
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"disambiguation": "Saturation Edition (hmv Exclusive Sleeve)",
+			"release-events": [
+				{
+					"area": {
+						"type-id": null,
+						"disambiguation": "",
+						"name": "United Kingdom",
+						"sort-name": "United Kingdom",
+						"id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+						"type": null,
+						"iso-3166-1-codes": ["GB"]
+					},
+					"date": "2021-05-21"
+				}
+			],
+			"date": "2021-05-21",
+			"asin": null,
+			"packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+			"packaging": "Digipak",
+			"quality": "normal",
+			"title": "Scaled and Icy",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"cover-art-archive": {
+				"back": false,
+				"count": 0,
+				"darkened": false,
+				"artwork": false,
+				"front": false
+			},
+			"barcode": "075678642852",
+			"country": "GB"
+		},
+		{
+			"cover-art-archive": {
+				"count": 0,
+				"back": false,
+				"darkened": false,
+				"artwork": false,
+				"front": false
+			},
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"country": "XW",
+			"barcode": null,
+			"title": "Location Sessions",
+			"release-events": [
+				{
+					"area": {
+						"sort-name": "[Worldwide]",
+						"id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+						"type": null,
+						"iso-3166-1-codes": ["XW"],
+						"type-id": null,
+						"disambiguation": "",
+						"name": "[Worldwide]"
+					},
+					"date": "2021-06-12"
+				}
+			],
+			"disambiguation": "",
+			"date": "2021-06-12",
+			"quality": "normal",
+			"asin": null,
+			"packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+			"packaging": "Cardboard/Paper Sleeve",
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"id": "a6e559f8-2308-4c20-a5d8-7232754f29a5"
+		},
+		{
+			"quality": "normal",
+			"asin": null,
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"packaging": "None",
+			"release-events": [
+				{
+					"date": "2025-04-09",
+					"area": {
+						"name": "[Worldwide]",
+						"disambiguation": "",
+						"type-id": null,
+						"iso-3166-1-codes": ["XW"],
+						"type": null,
+						"id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+						"sort-name": "[Worldwide]"
+					}
+				}
+			],
+			"disambiguation": "",
+			"date": "2025-04-09",
+			"text-representation": { "language": null, "script": "Latn" },
+			"id": "ba8a56b2-9760-4e58-9ea6-f92190336c0d",
+			"country": "XW",
+			"barcode": "075679611666",
+			"cover-art-archive": {
+				"artwork": true,
+				"front": true,
+				"back": false,
+				"count": 1,
+				"darkened": false
+			},
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"title": "Doubt (demo)"
+		},
+		{
+			"barcode": "075679599346",
+			"country": null,
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"cover-art-archive": {
+				"count": 2,
+				"back": false,
+				"darkened": false,
+				"front": true,
+				"artwork": true
+			},
+			"title": "Breach: Digital Remains",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"packaging": "None",
+			"asin": null,
+			"quality": "normal",
+			"date": "2025-09-12",
+			"release-events": [{ "date": "2025-09-12", "area": null }],
+			"disambiguation": "iTunes Store release",
+			"id": "be183701-d5b5-44b3-841e-e6d7e5de9583",
+			"text-representation": { "language": "eng", "script": "Latn" }
+		},
+		{
+			"date": "2025-09-12",
+			"release-events": [{ "date": "2025-09-12", "area": null }],
+			"disambiguation": "",
+			"packaging": "None",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"asin": null,
+			"quality": "normal",
+			"id": "be46e610-dd9d-4fe9-8cc0-531f386f999d",
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"cover-art-archive": {
+				"front": true,
+				"artwork": true,
+				"count": 1,
+				"back": false,
+				"darkened": false
+			},
+			"barcode": "075679609908",
+			"country": null,
+			"title": "Breach"
+		},
+		{
+			"title": "Vessel",
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"id": "c0ec6c6d-449e-4215-bd28-99489ea9dac1",
+			"disambiguation": "",
+			"cover-art-archive": {
+				"artwork": true,
+				"front": true,
+				"count": 2,
+				"back": false,
+				"darkened": false
+			},
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"barcode": "0699713071980",
+			"quality": "normal",
+			"packaging-id": null,
+			"packaging": null,
+			"asin": "B00PO5312A"
+		},
+		{
+			"title": "MTV Unplugged",
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"cover-art-archive": {
+				"front": true,
+				"artwork": true,
+				"back": false,
+				"darkened": false,
+				"count": 1
+			},
+			"country": "XW",
+			"barcode": "075679703699",
+			"id": "c145af1a-6379-4389-9295-a47c1252d4e5",
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"date": "2023-04-21",
+			"disambiguation": "",
+			"release-events": [
+				{
+					"area": {
+						"type": null,
+						"iso-3166-1-codes": ["XW"],
+						"sort-name": "[Worldwide]",
+						"id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+						"disambiguation": "",
+						"name": "[Worldwide]",
+						"type-id": null
+					},
+					"date": "2023-04-21"
+				}
+			],
+			"packaging": "None",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"asin": null,
+			"quality": "normal"
+		},
+		{
+			"title": "Breach",
+			"barcode": "075679609939",
+			"country": null,
+			"cover-art-archive": {
+				"count": 1,
+				"back": false,
+				"darkened": false,
+				"front": true,
+				"artwork": true
+			},
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"text-representation": { "language": null, "script": "Latn" },
+			"id": "c7268b4b-302c-424a-970c-2c85c949d956",
+			"quality": "normal",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"packaging": "None",
+			"asin": null,
+			"date": "2025-09-12",
+			"disambiguation": "",
+			"release-events": [{ "area": null, "date": "2025-09-12" }]
+		},
+		{
+			"release-events": [
+				{
+					"date": "2021-05-21",
+					"area": {
+						"type-id": null,
+						"name": "[Worldwide]",
+						"disambiguation": "",
+						"id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+						"sort-name": "[Worldwide]",
+						"iso-3166-1-codes": ["XW"],
+						"type": null
+					}
+				}
+			],
+			"disambiguation": "",
+			"date": "2021-05-21",
+			"quality": "normal",
+			"asin": null,
+			"packaging": "None",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"id": "c7833d51-b900-4b01-acef-3b0b9c82d971",
+			"cover-art-archive": {
+				"front": true,
+				"artwork": true,
+				"back": false,
+				"count": 1,
+				"darkened": false
+			},
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"country": "XW",
+			"barcode": "075679786210",
+			"title": "Scaled and Icy"
+		},
+		{
+			"text-representation": { "language": "eng", "script": null },
+			"id": "cc14acb2-0543-49e6-b935-e3de7cbf4d16",
+			"date": "2021-09-10",
+			"disambiguation": "",
+			"release-events": [
+				{
+					"date": "2021-09-10",
+					"area": {
+						"name": "[Worldwide]",
+						"disambiguation": "",
+						"type-id": null,
+						"iso-3166-1-codes": ["XW"],
+						"type": null,
+						"id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+						"sort-name": "[Worldwide]"
+					}
+				}
+			],
+			"quality": "normal",
+			"packaging": "None",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"asin": null,
+			"title": "Heathens / Trees (Livestream Version)",
+			"cover-art-archive": {
+				"back": false,
+				"darkened": false,
+				"count": 1,
+				"artwork": true,
+				"front": true
+			},
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"country": "XW",
+			"barcode": "075679769527"
+		},
+		{
+			"title": "Clancy",
+			"barcode": "075678610998",
+			"country": "US",
+			"cover-art-archive": {
+				"back": false,
+				"darkened": false,
+				"count": 1,
+				"artwork": true,
+				"front": true
+			},
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"id": "d0e340db-3540-4c19-8248-48dd6f2ed23d",
+			"quality": "normal",
+			"asin": null,
+			"packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+			"packaging": "Gatefold Cover",
+			"release-events": [
+				{
+					"area": {
+						"type-id": null,
+						"name": "United States",
+						"disambiguation": "",
+						"id": "489ce91b-6658-3307-9877-795b68554c98",
+						"sort-name": "United States",
+						"iso-3166-1-codes": ["US"],
+						"type": null
+					},
+					"date": "2024-05-24"
+				}
+			],
+			"disambiguation": "black vinyl",
+			"date": "2024-05-24"
+		},
+		{
+			"country": "US",
+			"barcode": "075678610950",
+			"cover-art-archive": {
+				"back": false,
+				"darkened": false,
+				"count": 1,
+				"artwork": true,
+				"front": true
+			},
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"title": "Clancy",
+			"quality": "normal",
+			"packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+			"packaging": "Gatefold Cover",
+			"asin": null,
+			"date": "2024-05-24",
+			"disambiguation": "limited edition exclusive dual‐color vinyl",
+			"release-events": [
+				{
+					"date": "2024-05-24",
+					"area": {
+						"type": null,
+						"iso-3166-1-codes": ["US"],
+						"sort-name": "United States",
+						"id": "489ce91b-6658-3307-9877-795b68554c98",
+						"disambiguation": "",
+						"name": "United States",
+						"type-id": null
+					}
+				}
+			],
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"id": "d4befa43-5e35-42fc-ace8-5363817f0106"
+		},
+		{
+			"title": "Choker",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"cover-art-archive": {
+				"darkened": false,
+				"back": false,
+				"count": 1,
+				"front": true,
+				"artwork": true
+			},
+			"barcode": "075679783202",
+			"country": "XW",
+			"id": "d8c3480b-1fcb-4888-9c2b-627c6dab2db9",
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"date": "2021-04-30",
+			"disambiguation": "",
+			"release-events": [
+				{
+					"date": "2021-04-30",
+					"area": {
+						"iso-3166-1-codes": ["XW"],
+						"type": null,
+						"id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+						"sort-name": "[Worldwide]",
+						"name": "[Worldwide]",
+						"disambiguation": "",
+						"type-id": null
+					}
+				}
+			],
+			"packaging": "None",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"asin": null,
+			"quality": "normal"
+		},
+		{
+			"barcode": "075679588968",
+			"country": "XW",
+			"cover-art-archive": {
+				"back": false,
+				"darkened": false,
+				"count": 1,
+				"front": true,
+				"artwork": true
+			},
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"title": "Drag Path",
+			"quality": "normal",
+			"packaging": "None",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"asin": null,
+			"date": "2026-02-17",
+			"disambiguation": "",
+			"release-events": [
+				{
+					"date": "2026-02-17",
+					"area": {
+						"id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+						"sort-name": "[Worldwide]",
+						"iso-3166-1-codes": ["XW"],
+						"type": null,
+						"type-id": null,
+						"name": "[Worldwide]",
+						"disambiguation": ""
+					}
+				}
+			],
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"id": "da9dab1e-f660-4180-871d-eb55d5f73683"
+		},
+		{
+			"title": "Overcompensate",
+			"barcode": "075679654618",
+			"country": null,
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"cover-art-archive": {
+				"artwork": true,
+				"front": true,
+				"darkened": false,
+				"back": false,
+				"count": 1
+			},
+			"id": "e148239a-f34d-4dca-a86b-4690afb34b48",
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"packaging": "None",
+			"asin": null,
+			"quality": "normal",
+			"date": "2024-02-29",
+			"release-events": [{ "area": null, "date": "2024-02-29" }],
+			"disambiguation": ""
+		},
+		{
+			"id": "e7590584-a2bd-4156-9d1b-704788a760a5",
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"asin": null,
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"packaging": "None",
+			"quality": "normal",
+			"release-events": [{ "date": "2024-05-22", "area": null }],
+			"disambiguation": "",
+			"date": "2024-05-22",
+			"title": "The Craving (single version)",
+			"barcode": "075679646828",
+			"country": null,
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"cover-art-archive": {
+				"artwork": true,
+				"front": true,
+				"back": false,
+				"count": 1,
+				"darkened": false
+			}
+		},
+		{
+			"packaging": "None",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"asin": null,
+			"quality": "normal",
+			"date": "2024-11-22",
+			"release-events": [{ "date": "2024-11-22", "area": null }],
+			"disambiguation": "",
+			"id": "e772b2fc-990b-465e-8c5b-cbc21a8cc608",
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"barcode": "00198704203749",
+			"country": null,
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"cover-art-archive": {
+				"count": 1,
+				"back": false,
+				"darkened": false,
+				"front": true,
+				"artwork": true
+			},
+			"title": "The Line (from the series Arcane League of Legends)"
+		},
+		{
+			"id": "e83f204d-b599-448b-a88a-354f6a98f492",
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"asin": "B0CWRRTJVD",
+			"packaging": "Jewel Case",
+			"packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+			"quality": "normal",
+			"release-events": [
+				{
+					"area": {
+						"iso-3166-1-codes": ["XE"],
+						"type": null,
+						"id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+						"sort-name": "Europe",
+						"name": "Europe",
+						"disambiguation": "",
+						"type-id": null
+					},
+					"date": "2024-05-24"
+				}
+			],
+			"disambiguation": "",
+			"date": "2024-05-24",
+			"title": "Clancy",
+			"country": "XE",
+			"barcode": "075678608131",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"cover-art-archive": {
+				"front": true,
+				"artwork": true,
+				"count": 2,
+				"back": false,
+				"darkened": false
+			}
+		},
+		{
+			"asin": null,
+			"packaging": "Digipak",
+			"packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+			"quality": "normal",
+			"release-events": [
+				{
+					"area": {
+						"sort-name": "United States",
+						"id": "489ce91b-6658-3307-9877-795b68554c98",
+						"type": null,
+						"iso-3166-1-codes": ["US"],
+						"type-id": null,
+						"disambiguation": "",
+						"name": "United States"
+					},
+					"date": "2023-04-21"
+				}
+			],
+			"disambiguation": "",
+			"date": "2023-04-21",
+			"id": "ece0515d-4300-40df-945c-d7464ce56e18",
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"country": "US",
+			"barcode": "075678624797",
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"cover-art-archive": {
+				"count": 0,
+				"back": false,
+				"darkened": false,
+				"front": false,
+				"artwork": false
+			},
+			"title": "MTV Unplugged"
+		},
+		{
+			"disambiguation": "",
+			"release-events": [
+				{
+					"area": {
+						"name": "[Worldwide]",
+						"disambiguation": "",
+						"type-id": null,
+						"iso-3166-1-codes": ["XW"],
+						"type": null,
+						"id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+						"sort-name": "[Worldwide]"
+					},
+					"date": "2021-06-12"
+				}
+			],
+			"date": "2021-06-12",
+			"quality": "normal",
+			"asin": null,
+			"packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+			"packaging": "Cardboard/Paper Sleeve",
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"id": "ef3d3237-c31c-405f-907b-e81dd6fcba32",
+			"cover-art-archive": {
+				"back": false,
+				"count": 1,
+				"darkened": false,
+				"front": true,
+				"artwork": true
+			},
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"barcode": "075678643941",
+			"country": "XW",
+			"title": "Location Sessions"
+		},
+		{
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"id": "efa45c2d-3004-4bd2-b2a8-a800a0df16a0",
+			"quality": "normal",
+			"asin": null,
+			"packaging": "Gatefold Cover",
+			"packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+			"release-events": [
+				{
+					"date": "2024-05-24",
+					"area": {
+						"disambiguation": "",
+						"name": "United States",
+						"type-id": null,
+						"type": null,
+						"iso-3166-1-codes": ["US"],
+						"sort-name": "United States",
+						"id": "489ce91b-6658-3307-9877-795b68554c98"
+					}
+				}
+			],
+			"disambiguation": "limited edition exclusive marble vinyl",
+			"date": "2024-05-24",
+			"title": "Clancy",
+			"barcode": "075678610936",
+			"country": "US",
+			"cover-art-archive": {
+				"front": true,
+				"artwork": true,
+				"count": 1,
+				"back": false,
+				"darkened": false
+			},
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official"
+		},
+		{
+			"title": "The Hype (Berlin)",
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"cover-art-archive": {
+				"back": false,
+				"count": 1,
+				"darkened": false,
+				"artwork": true,
+				"front": true
+			},
+			"country": "XW",
+			"barcode": "075679834348",
+			"id": "f149920f-a564-41b8-a19a-dfb4445a9abd",
+			"text-representation": { "language": "eng", "script": "Latn" },
+			"date": "2019-10-16",
+			"release-events": [
+				{
+					"date": "2019-10-16",
+					"area": {
+						"type-id": null,
+						"disambiguation": "",
+						"name": "[Worldwide]",
+						"sort-name": "[Worldwide]",
+						"id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+						"type": null,
+						"iso-3166-1-codes": ["XW"]
+					}
+				}
+			],
+			"disambiguation": "",
+			"packaging": "None",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"asin": null,
+			"quality": "normal"
+		},
+		{
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"id": "f49cc08b-8234-42fe-a176-766c8446757a",
+			"quality": "normal",
+			"packaging-id": null,
+			"packaging": null,
+			"asin": null,
+			"date": "2025-09-19",
+			"disambiguation": "Target-exclusive red & black blend vinyl",
+			"release-events": [{ "date": "2025-09-19", "area": null }],
+			"title": "Breach",
+			"country": null,
+			"barcode": "075678594533",
+			"cover-art-archive": {
+				"back": false,
+				"darkened": false,
+				"count": 0,
+				"artwork": false,
+				"front": false
+			},
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+		},
+		{
+			"quality": "normal",
+			"packaging": "None",
+			"packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+			"asin": null,
+			"date": "2024-03-27",
+			"disambiguation": "",
+			"release-events": [{ "area": null, "date": "2024-03-27" }],
+			"text-representation": { "script": "Latn", "language": null },
+			"id": "f88a60c3-7dcb-45e1-8534-4e94f4828985",
+			"country": null,
+			"barcode": "075679651167",
+			"cover-art-archive": {
+				"front": true,
+				"artwork": true,
+				"back": false,
+				"darkened": false,
+				"count": 1
+			},
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"title": "Next Semester"
+		},
+		{
+			"cover-art-archive": {
+				"darkened": false,
+				"back": false,
+				"count": 1,
+				"front": true,
+				"artwork": true
+			},
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"status": "Official",
+			"country": "US",
+			"barcode": "075678608636",
+			"title": "Clancy",
+			"disambiguation": "journal",
+			"release-events": [
+				{
+					"area": {
+						"sort-name": "United States",
+						"id": "489ce91b-6658-3307-9877-795b68554c98",
+						"type": null,
+						"iso-3166-1-codes": ["US"],
+						"type-id": null,
+						"disambiguation": "",
+						"name": "United States"
+					},
+					"date": "2024-05-24"
+				}
+			],
+			"date": "2024-05-24",
+			"quality": "normal",
+			"asin": null,
+			"packaging": "Book",
+			"packaging-id": "d60b6157-79fe-3913-ab8b-23b32de8690d",
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"id": "fa18f8d0-8165-4315-813f-44a5aa1d4ae2"
+		},
+		{
+			"date": "2023-02-17",
+			"release-events": [
+				{
+					"area": {
+						"type": null,
+						"iso-3166-1-codes": ["US"],
+						"sort-name": "United States",
+						"id": "489ce91b-6658-3307-9877-795b68554c98",
+						"disambiguation": "",
+						"name": "United States",
+						"type-id": null
+					},
+					"date": "2023-02-17"
+				}
+			],
+			"disambiguation": "Limited Edition Box Set",
+			"packaging-id": "c1668fc7-8944-4a00-bc3e-46e8d861d211",
+			"packaging": "Box",
+			"asin": null,
+			"quality": "normal",
+			"id": "fb618be2-a439-41ab-bd4f-dca2b1149254",
+			"text-representation": { "script": "Latn", "language": "eng" },
+			"status": "Official",
+			"status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+			"cover-art-archive": {
+				"front": true,
+				"artwork": true,
+				"back": true,
+				"count": 2,
+				"darkened": false
+			},
+			"country": "US",
+			"barcode": "075678630590",
+			"title": "Vessel"
+		}
+	]
+}
