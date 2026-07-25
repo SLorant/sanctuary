@@ -1,0 +1,9 @@
+node_modules
+.svelte-kit
+build
+.git
+.env
+.env.*
+data
+sanctuary.zip
+*.md
