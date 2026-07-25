@@ -34,6 +34,10 @@ ENV PORT=3000
 COPY --from=build /app/build ./build
 COPY --from=build /app/node_modules ./node_modules
 COPY --from=build /app/package.json ./package.json
+# +page.server.ts reads static/gallery directly via fs.readdirSync at request
+# time, bypassing SvelteKit's built-in static asset serving, so it needs the
+# actual static/ dir present at runtime, not just built into build/client.
+COPY --from=build /app/static ./static
 
 EXPOSE 3000
 
