@@ -17,7 +17,7 @@
 <style is:global>
 	@font-face {
 		font-family: 'Hangyaku';
-		src: url('Hangyaku.ttf');
+		src: url('/Hangyaku.ttf');
 	}
 
 	* {
