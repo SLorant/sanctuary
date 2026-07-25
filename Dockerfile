@@ -7,7 +7,10 @@ RUN apt-get update \
 	&& rm -rf /var/lib/apt/lists/*
 
 COPY package.json package-lock.json ./
-RUN npm ci
+# npm install (not ci) because package-lock.json was generated on Windows and
+# only pins the win32 lightningcss/native binaries — install recalculates the
+# correct platform-specific optional deps (e.g. lightningcss-linux-x64-gnu) for Linux.
+RUN npm install
 
 COPY . .
 RUN npm run build
