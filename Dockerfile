@@ -14,6 +14,11 @@ COPY package.json ./
 RUN npm install
 
 COPY . .
+
+# db.ts opens the sqlite file at import time, and SvelteKit's build-time route
+# analysis imports server code — give it a throwaway dir to open. The real
+# data/ is bind-mounted at runtime and never comes from this stage.
+RUN mkdir -p data
 RUN npm run build
 
 # Drop devDependencies now that the build output exists
