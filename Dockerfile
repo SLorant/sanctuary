@@ -6,10 +6,11 @@ RUN apt-get update \
 	&& apt-get install -y --no-install-recommends python3 make g++ \
 	&& rm -rf /var/lib/apt/lists/*
 
-COPY package.json package-lock.json ./
-# npm install (not ci) because package-lock.json was generated on Windows and
-# only pins the win32 lightningcss/native binaries — install recalculates the
-# correct platform-specific optional deps (e.g. lightningcss-linux-x64-gnu) for Linux.
+# package-lock.json is generated on Windows and pins Windows-only native
+# optional deps (lightningcss, etc). npm doesn't reliably backfill the
+# correct binary for a different platform/arch from a foreign lockfile, so
+# skip it here and let npm resolve native deps fresh for the build platform.
+COPY package.json ./
 RUN npm install
 
 COPY . .
