@@ -13,6 +13,38 @@ interface ReleaseGroupData {
 	'primary-type'?: string;
 }
 
+// MusicBrainz enforces ~1 request/second per IP across ALL endpoints, not
+// just within a single artist's pagination. Serialize every call through
+// this so bursts across artists don't get silently 503'd/429'd.
+const MUSICBRAINZ_MIN_INTERVAL_MS = 1100;
+let queueTail: Promise<void> = Promise.resolve();
+
+async function rateLimitedFetch(
+	url: string,
+	headers: Record<string, string>,
+	fetch: typeof global.fetch
+): Promise<Response> {
+	// Wait for whoever's ahead of us, then publish our own completion as the
+	// new tail so the next caller waits on us instead.
+	const myTurn = queueTail;
+	let releaseNext!: () => void;
+	queueTail = new Promise<void>((resolve) => {
+		releaseNext = resolve;
+	});
+
+	await myTurn;
+
+	try {
+		const response = await fetch(url, { headers });
+		if (!response.ok) {
+			throw new Error(`MusicBrainz request failed: ${response.status} ${response.statusText} (${url})`);
+		}
+		return response;
+	} finally {
+		setTimeout(releaseNext, MUSICBRAINZ_MIN_INTERVAL_MS);
+	}
+}
+
 async function fetchArtistReleases(
 	artistName: string,
 	fetch: typeof global.fetch
@@ -22,7 +54,7 @@ async function fetchArtistReleases(
 
 		// Search for artist on MusicBrainz
 		const artistSearchUrl = `https://musicbrainz.org/ws/2/artist/?query=${encodeURIComponent(artistName)}&fmt=json&limit=1`;
-		const artistResponse = await fetch(artistSearchUrl, { headers });
+		const artistResponse = await rateLimitedFetch(artistSearchUrl, headers, fetch);
 		const artistData = await artistResponse.json();
 
 		if (!artistData.artists || artistData.artists.length === 0) {
@@ -43,7 +75,7 @@ async function fetchArtistReleases(
 
 		while (hasMore) {
 			const releaseGroupsUrl = `https://musicbrainz.org/ws/2/release-group?artist=${artistId}&fmt=json&limit=${limit}&offset=${offset}`;
-			const releaseGroupsResponse = await fetch(releaseGroupsUrl, { headers });
+			const releaseGroupsResponse = await rateLimitedFetch(releaseGroupsUrl, headers, fetch);
 			const releaseGroupsData = await releaseGroupsResponse.json();
 
 			if (releaseGroupsData['release-groups'] && releaseGroupsData['release-groups'].length > 0) {
@@ -54,9 +86,6 @@ async function fetchArtistReleases(
 				if (releaseGroupsData['release-groups'].length < limit) {
 					hasMore = false;
 				}
-
-				// Add a small delay to respect API rate limits
-				await new Promise((resolve) => setTimeout(resolve, 1000));
 			} else {
 				hasMore = false;
 			}
