@@ -13,13 +13,30 @@
 	let releases: Release[] = [];
 	let currentIndex = 0;
 	let isLoading = true;
+	let loadedCount = 0;
+	let totalCount = 0;
 
 	async function loadReleases() {
 		try {
-			const response = await fetch('/api/releases');
-			const data = await response.json();
-			if (data.releases) {
-				releases = data.releases;
+			const artistsResponse = await fetch('/api/artists');
+			const artistsData = await artistsResponse.json();
+			const artists: string[] = artistsData.artists ?? [];
+			totalCount = artists.length;
+
+			for (const artist of artists) {
+				try {
+					const response = await fetch(`/api/releases/${encodeURIComponent(artist)}`);
+					const data = await response.json();
+					if (data.releases) {
+						releases = [...releases, ...data.releases].sort(
+							(a, b) => new Date(b.releaseDate).getTime() - new Date(a.releaseDate).getTime()
+						);
+					}
+				} catch (error) {
+					console.error(`Error loading releases for ${artist}:`, error);
+				} finally {
+					loadedCount += 1;
+				}
 			}
 		} catch (error) {
 			console.error('Error loading releases:', error);
@@ -72,7 +89,13 @@
 <div class="artists-widget">
 	{#if isLoading}
 		<div class="widget-empty">
-			<p>Loading...</p>
+			<p>Loading… {loadedCount}/{totalCount}</p>
+			<div class="progress-bar">
+				<div
+					class="progress-bar-fill"
+					style="width: {totalCount > 0 ? (loadedCount / totalCount) * 100 : 0}%"
+				></div>
+			</div>
 		</div>
 	{:else if releases.length > 0}
 		{@const release = releases[currentIndex]}
@@ -249,10 +272,24 @@
 
 	.widget-empty {
 		text-align: center;
+		width: 100%;
 	}
 
 	.widget-empty p {
 		margin: 0 0 1rem 0;
+	}
+
+	.progress-bar {
+		width: 100%;
+		height: 8px;
+		border: 1px solid white;
+		overflow: hidden;
+	}
+
+	.progress-bar-fill {
+		height: 100%;
+		background: white;
+		transition: width 0.3s ease;
 	}
 
 	.widget-empty a {

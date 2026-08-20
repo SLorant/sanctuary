@@ -45,7 +45,7 @@ async function rateLimitedFetch(
 	}
 }
 
-async function fetchArtistReleases(
+export async function fetchArtistReleases(
 	artistName: string,
 	fetch: typeof global.fetch
 ): Promise<Release[]> {
@@ -123,7 +123,14 @@ async function fetchArtistReleases(
 			}
 		}
 
-		return recentReleases;
+		// MusicBrainz can list the same title multiple times (reissues, regional variants)
+		const seenKeys = new Set<string>();
+		return recentReleases.filter((release) => {
+			const key = `${release.artistName}-${release.title}`;
+			if (seenKeys.has(key)) return false;
+			seenKeys.add(key);
+			return true;
+		});
 	} catch (error) {
 		console.error(`Error fetching releases for ${artistName}:`, error);
 		return [];
@@ -131,47 +138,41 @@ async function fetchArtistReleases(
 }
 
 const CACHE_TTL_MS = 24 * 60 * 60 * 1000;
-let releaseCache: { releases: Release[]; trackedArtists: string[]; fetchedAt: number } | null =
-	null;
+const perArtistCache = new Map<string, { releases: Release[]; fetchedAt: number }>();
+
+// Fetches (and caches) releases for a single artist. Used both by the
+// per-artist API route (so the client can show progress as each artist
+// finishes) and by getArtistReleases below.
+export async function getCachedArtistReleases(
+	artistName: string,
+	fetch: typeof global.fetch
+): Promise<Release[]> {
+	const cached = perArtistCache.get(artistName);
+	if (cached && Date.now() - cached.fetchedAt < CACHE_TTL_MS) {
+		return cached.releases;
+	}
+
+	const releases = await fetchArtistReleases(artistName, fetch);
+	perArtistCache.set(artistName, { releases, fetchedAt: Date.now() });
+	return releases;
+}
+
+function sortByReleaseDateDesc(releases: Release[]): Release[] {
+	return [...releases].sort(
+		(a, b) => new Date(b.releaseDate).getTime() - new Date(a.releaseDate).getTime()
+	);
+}
 
 export async function getArtistReleases(
 	fetch: typeof global.fetch,
 	trackedArtists: string[]
 ): Promise<Release[]> {
-	const sameArtists =
-		releaseCache &&
-		releaseCache.trackedArtists.length === trackedArtists.length &&
-		releaseCache.trackedArtists.every((name) => trackedArtists.includes(name));
-
-	if (releaseCache && sameArtists && Date.now() - releaseCache.fetchedAt < CACHE_TTL_MS) {
-		return releaseCache.releases;
-	}
-
 	const allReleases: Release[] = [];
 
-	// Fetch releases for all tracked artists
 	for (const artist of trackedArtists) {
-		const releases = await fetchArtistReleases(artist, fetch);
+		const releases = await getCachedArtistReleases(artist, fetch);
 		allReleases.push(...releases);
 	}
 
-	// Sort by release date (newest first)
-	allReleases.sort((a, b) => new Date(b.releaseDate).getTime() - new Date(a.releaseDate).getTime());
-
-	// MusicBrainz can list the same title multiple times per artist (reissues, regional variants)
-	const seenKeys = new Set<string>();
-	const dedupedReleases = allReleases.filter((release) => {
-		const key = `${release.artistName}-${release.title}`;
-		if (seenKeys.has(key)) return false;
-		seenKeys.add(key);
-		return true;
-	});
-
-	releaseCache = {
-		releases: dedupedReleases,
-		trackedArtists,
-		fetchedAt: Date.now()
-	};
-
-	return dedupedReleases;
+	return sortByReleaseDateDesc(allReleases);
 }

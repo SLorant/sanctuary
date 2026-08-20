@@ -2,6 +2,11 @@ import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import { trackedArtistDb } from '$lib/server/db';
 
+export const GET: RequestHandler = async () => {
+	const artists = trackedArtistDb.getAll().map((artist) => artist.name);
+	return json({ artists });
+};
+
 export const POST: RequestHandler = async ({ request }) => {
 	try {
 		const { name } = await request.json();

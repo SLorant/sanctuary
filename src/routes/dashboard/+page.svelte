@@ -1,8 +1,50 @@
 <script lang="ts">
 	import ArtistPicker from '$lib/dashboard/ArtistPicker.svelte';
+	import { onMount } from 'svelte';
 	import type { PageData } from './$types';
 
+	interface Release {
+		artistName: string;
+		title: string;
+		releaseDate: string;
+		type: 'album' | 'single';
+		tidalLink: string;
+	}
+
 	export let data: PageData;
+
+	let releases: Release[] = [];
+	let loadedCount = 0;
+	let isLoadingReleases = true;
+	$: totalCount = data.trackedArtists.length;
+
+	async function loadReleases() {
+		releases = [];
+		loadedCount = 0;
+		isLoadingReleases = true;
+
+		for (const artist of data.trackedArtists) {
+			try {
+				const response = await fetch(`/api/releases/${encodeURIComponent(artist)}`);
+				const result = await response.json();
+				if (result.releases) {
+					releases = [...releases, ...result.releases].sort(
+						(a, b) => new Date(b.releaseDate).getTime() - new Date(a.releaseDate).getTime()
+					);
+				}
+			} catch (error) {
+				console.error(`Error loading releases for ${artist}:`, error);
+			} finally {
+				loadedCount += 1;
+			}
+		}
+
+		isLoadingReleases = false;
+	}
+
+	onMount(() => {
+		loadReleases();
+	});
 
 	function formatDate(dateString: string): string {
 		const date = new Date(dateString);
@@ -46,7 +88,7 @@
 			<div class="stat-label">Tracked Artists</div>
 		</div>
 		<div class="stat-card">
-			<div class="stat-value">{data.releases.length}</div>
+			<div class="stat-value">{releases.length}</div>
 			<div class="stat-label">New Releases</div>
 		</div>
 	</div>
@@ -54,14 +96,28 @@
 	<div class="releases-section">
 		<h2>Recent Releases</h2>
 
-		{#if data.releases.length === 0}
+		{#if isLoadingReleases}
+			<div class="progress-state">
+				<div class="progress-label">
+					Loading releases… {loadedCount}/{totalCount}
+				</div>
+				<div class="progress-bar">
+					<div
+						class="progress-bar-fill"
+						style="width: {totalCount > 0 ? (loadedCount / totalCount) * 100 : 0}%"
+					></div>
+				</div>
+			</div>
+		{/if}
+
+		{#if !isLoadingReleases && releases.length === 0}
 			<div class="empty-state">
 				<p>No new releases in the past 3 months 😔</p>
 				<p class="empty-subtitle">Check back later!</p>
 			</div>
-		{:else}
+		{:else if releases.length > 0}
 			<div class="releases-list">
-				{#each data.releases as release (`${release.artistName}-${release.title}`)}
+				{#each releases as release (`${release.artistName}-${release.title}`)}
 					<div class="release-card">
 						<div class="release-info">
 							<div class="release-header">
@@ -172,6 +228,31 @@
 		font-weight: 800;
 		text-transform: uppercase;
 		letter-spacing: 0.03em;
+	}
+
+	.progress-state {
+		padding: 2rem;
+		border: 2px solid white;
+	}
+
+	.progress-label {
+		font-size: 1.1rem;
+		margin-bottom: 1rem;
+		color: #00ff88;
+		font-weight: 600;
+	}
+
+	.progress-bar {
+		width: 100%;
+		height: 12px;
+		border: 1px solid white;
+		overflow: hidden;
+	}
+
+	.progress-bar-fill {
+		height: 100%;
+		background: linear-gradient(135deg, #00ff88 0%, #00cc66 100%);
+		transition: width 0.3s ease;
 	}
 
 	.empty-state {
