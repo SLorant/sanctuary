@@ -8,6 +8,61 @@ const db = new Database(dbPath);
 db.pragma('journal_mode = WAL');
 db.pragma('foreign_keys = ON');
 
+
+export interface TrackedArtist {
+	id?: number;
+	name: string;
+	createdAt?: string;
+}
+
+
+// Tracked artists table
+db.exec(`
+	CREATE TABLE IF NOT EXISTS tracked_artists (
+		id INTEGER PRIMARY KEY AUTOINCREMENT,
+		name TEXT NOT NULL UNIQUE,
+		created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+	)
+`);
+
+const trackedArtistStatements = {
+	getAll: db.prepare(`
+		SELECT
+			id,
+			name,
+			created_at as createdAt
+		FROM tracked_artists
+		ORDER BY created_at ASC
+	`),
+
+	insert: db.prepare(`
+		INSERT INTO tracked_artists (name)
+		VALUES (?)
+	`),
+
+	delete: db.prepare(`
+		DELETE FROM tracked_artists
+		WHERE name = ?
+	`)
+};
+
+export const trackedArtistDb = {
+	getAll(): TrackedArtist[] {
+		return trackedArtistStatements.getAll.all() as TrackedArtist[];
+	},
+
+	add(name: string): number {
+		const result = trackedArtistStatements.insert.run(name);
+		return result.lastInsertRowid as number;
+	},
+
+	remove(name: string): boolean {
+		const result = trackedArtistStatements.delete.run(name);
+		return result.changes > 0;
+	}
+};
+
+
 // Habits table
 db.exec(`
 	CREATE TABLE IF NOT EXISTS habits (
@@ -28,15 +83,6 @@ db.exec(`
 		created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
 		UNIQUE(habit_id, log_date),
 		FOREIGN KEY (habit_id) REFERENCES habits(id) ON DELETE CASCADE
-	)
-`);
-
-// Tracked artists table
-db.exec(`
-	CREATE TABLE IF NOT EXISTS tracked_artists (
-		id INTEGER PRIMARY KEY AUTOINCREMENT,
-		name TEXT NOT NULL UNIQUE,
-		created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 	)
 `);
 
@@ -149,11 +195,6 @@ export interface HabitLog {
 	createdAt?: string;
 }
 
-export interface TrackedArtist {
-	id?: number;
-	name: string;
-	createdAt?: string;
-}
 
 export interface DailyTarotDraw {
 	id?: number;
@@ -281,26 +322,8 @@ const habitLogStatements = {
 	`)
 };
 
-const trackedArtistStatements = {
-	getAll: db.prepare(`
-		SELECT
-			id,
-			name,
-			created_at as createdAt
-		FROM tracked_artists
-		ORDER BY created_at ASC
-	`),
 
-	insert: db.prepare(`
-		INSERT INTO tracked_artists (name)
-		VALUES (?)
-	`),
 
-	delete: db.prepare(`
-		DELETE FROM tracked_artists
-		WHERE name = ?
-	`)
-};
 
 const tarotStatements = {
 	getByDate: db.prepare(`
@@ -538,21 +561,6 @@ export const habitLogDb = {
 	}
 };
 
-export const trackedArtistDb = {
-	getAll(): TrackedArtist[] {
-		return trackedArtistStatements.getAll.all() as TrackedArtist[];
-	},
-
-	add(name: string): number {
-		const result = trackedArtistStatements.insert.run(name);
-		return result.lastInsertRowid as number;
-	},
-
-	remove(name: string): boolean {
-		const result = trackedArtistStatements.delete.run(name);
-		return result.changes > 0;
-	}
-};
 
 export const tarotDb = {
 	getByDate(drawDate: string): DailyTarotDraw | undefined {
