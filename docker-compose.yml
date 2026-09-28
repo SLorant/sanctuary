@@ -10,5 +10,11 @@ services:
       # Must match how you reach the app publicly (domain or http://VPS_IP:3000).
       # SvelteKit form actions reject requests whose Origin doesn't match this.
       - ORIGIN=https://sanctuary.morn.onl
+      - DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/1554189298482413580/icaP8RIUM8SE8hftdJ9aVNIaJqAA697hd_x0NlBXmJ_6k0-lqfWT8e8Vsvx-IY0DzK5A
+      - TZ=Europe/Berlin          # your timezone; "today" is calculated in this
+      - RELEASE_NOTIFY_HOUR=9     # optional, default 9
+      # - DISCORD_WEBHOOK_USERNAME=Release Radar
+      # - DISCORD_WEBHOOK_AVATAR_URL=https://...   # for the persona later
+
     volumes:
       - ./data:/app/data

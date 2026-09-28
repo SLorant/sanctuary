@@ -62,6 +62,109 @@ export const trackedArtistDb = {
 	}
 };
 
+// ---------------------------------------------------------------------------
+// Release notifier storage
+// ---------------------------------------------------------------------------
+ 
+// One row per MusicBrainz release-group we have already dealt with.
+// A row existing means the "discovered" notification is done.
+// release_day_notified = 1 means the "out today" notification is done too.
+db.exec(`
+	CREATE TABLE IF NOT EXISTS announced_releases (
+		id TEXT PRIMARY KEY,
+		artist_name TEXT NOT NULL,
+		title TEXT NOT NULL,
+		release_date TEXT NOT NULL,
+		release_day_notified INTEGER NOT NULL DEFAULT 0,
+		created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+	)
+`);
+ 
+// Small key/value store for notifier bookkeeping
+// (last successful run day, which artists were already seeded).
+db.exec(`
+	CREATE TABLE IF NOT EXISTS notifier_state (
+		key TEXT PRIMARY KEY,
+		value TEXT NOT NULL
+	)
+`);
+ 
+export interface AnnouncedRelease {
+	id: string;
+	artistName: string;
+	title: string;
+	releaseDate: string; // normalized YYYY-MM-DD
+	releaseDayNotified: number; // 0 or 1
+}
+ 
+const announcedStatements = {
+	get: db.prepare(`
+		SELECT
+			id,
+			artist_name as artistName,
+			title,
+			release_date as releaseDate,
+			release_day_notified as releaseDayNotified
+		FROM announced_releases
+		WHERE id = ?
+	`),
+ 
+	insert: db.prepare(`
+		INSERT INTO announced_releases (id, artist_name, title, release_date, release_day_notified)
+		VALUES (?, ?, ?, ?, ?)
+	`),
+ 
+	updateDate: db.prepare(`
+		UPDATE announced_releases SET release_date = ? WHERE id = ?
+	`),
+ 
+	markReleaseDayNotified: db.prepare(`
+		UPDATE announced_releases SET release_day_notified = 1 WHERE id = ?
+	`)
+};
+ 
+export const announcedReleaseDb = {
+	get(id: string): AnnouncedRelease | undefined {
+		return announcedStatements.get.get(id) as AnnouncedRelease | undefined;
+	},
+ 
+	insert(release: Omit<AnnouncedRelease, 'releaseDayNotified'>, releaseDayNotified: boolean): void {
+		announcedStatements.insert.run(
+			release.id,
+			release.artistName,
+			release.title,
+			release.releaseDate,
+			releaseDayNotified ? 1 : 0
+		);
+	},
+ 
+	updateDate(id: string, releaseDate: string): void {
+		announcedStatements.updateDate.run(releaseDate, id);
+	},
+ 
+	markReleaseDayNotified(id: string): void {
+		announcedStatements.markReleaseDayNotified.run(id);
+	}
+};
+ 
+const stateStatements = {
+	get: db.prepare(`SELECT value FROM notifier_state WHERE key = ?`),
+	set: db.prepare(`
+		INSERT INTO notifier_state (key, value) VALUES (?, ?)
+		ON CONFLICT(key) DO UPDATE SET value = excluded.value
+	`)
+};
+ 
+export const notifierStateDb = {
+	get(key: string): string | undefined {
+		const row = stateStatements.get.get(key) as { value: string } | undefined;
+		return row?.value;
+	},
+ 
+	set(key: string, value: string): void {
+		stateStatements.set.run(key, value);
+	}
+};
 
 // Habits table
 db.exec(`
